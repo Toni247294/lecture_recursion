@@ -5,7 +5,7 @@ def recursive_nth_fibo(n):
         return recursive_nth_fibo(n - 1) + recursive_nth_fibo(n - 2)
 
 def main():
-    print(recursive_nth_fibo(5))
+    print(recursive_nth_fibo(8))
 
 
 if __name__ == "__main__":
